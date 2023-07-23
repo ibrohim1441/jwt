@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    background-color: green;
+    margin: 0 auto;
+}
+
+
+h1{
+    color: yellow;
+}
+
+.login_input{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 200px;
+}
+
+.login_input_one{
+    max-width: 400px;
+    padding: 5px  40px 5px 10px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+.login_input_two{
+    max-width: 400px;
+    padding: 5px  40px 5px 10px;
+    margin-top: 15px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#btn{
+    max-width: 400px;
+    padding: 5px 60px;
+    margin-top: 15px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
